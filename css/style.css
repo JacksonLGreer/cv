@@ -1,0 +1,115 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: lightblue;
+    border: dotted;
+    display: flex;
+    flex-direction: row;
+}
+
+.cont {
+    margin-left: auto;
+}
+
+footer {
+    background-color: lightblue;
+    border: dotted;
+    display: flex;
+    justify-content: center;
+}
+
+.splash > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #808080;
+}
+
+.splash > img {
+    border-style: dotted;
+}
+
+.splash > p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #808080;
+}
+
+hr {
+    border-width: 5px;
+    border-style: dotted;
+}
+
+.education > h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: #808080;
+}
+
+.education > p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sections > h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: #808080;
+}
+
+.sections > ul {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+.sections > dl {
+    display: grid;
+}
+
+a {
+    color: hotpink;
+    text-decoration: none;
+}
+
+a:hover {
+    color:blueviolet;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    column-gap: 50px;
+}
+
+.three-col > h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: #808080;
+}
+
+.card > ul {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue; 
+}
+
+.card {
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0px 16px 0 rgba(0,0,0,0.2);
+}
+
+.three-col {
+    padding: 2px 16px;
+}
+
+.one-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+form > input {
+    border-style: dotted;
+}
