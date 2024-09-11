@@ -1,10 +1,13 @@
+html {
+    background-color: #FEFAE0;
+}
 body {
     margin: 0px;
     padding: 0px;
 }
 
 nav {
-    background-color: lightblue;
+    background-color: #606c38;
     border: dotted;
     display: flex;
     flex-direction: row;
@@ -15,7 +18,7 @@ nav {
 }
 
 footer {
-    background-color: lightblue;
+    background-color: #606c38;
     border: dotted;
     display: flex;
     justify-content: center;
@@ -23,7 +26,7 @@ footer {
 
 .splash > h1 {
     font-family: Arial, Helvetica, sans-serif;
-    color: #808080;
+    color: #283618;
 }
 
 .splash > img {
@@ -32,18 +35,19 @@ footer {
 
 .splash > p {
     font-family: Arial, Helvetica, sans-serif;
-    color: #808080;
+    color: #283618;
 }
 
 hr {
     border-width: 5px;
-    border-style: dotted;
+    border-style: double;
+    border-color: #606c38
 }
 
 .education > h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
-    color: #808080;
+    color: #283618;
 }
 
 .education > p {
@@ -52,12 +56,12 @@ hr {
 .sections > h2{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
-    color: #808080;
+    color: #283618;
 }
 
 .sections > ul {
     font-family: Arial, Helvetica, sans-serif;
-    color: blue;
+    color: #bc6c25;
 }
 
 .sections > dl {
@@ -65,44 +69,50 @@ hr {
 }
 
 a {
-    color: hotpink;
+    color: #dda15e;
     text-decoration: none;
 }
 
 a:hover {
-    color:blueviolet;
+    color:#283618;
 }
 
 .three-col {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
     column-gap: 50px;
+    padding: 2px 16px;
+
 }
 
-.three-col > h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 35px;
-    color: #808080;
-}
 
 .card > ul {
     font-family: Arial, Helvetica, sans-serif;
-    color: blue; 
+    color: #dda15e; 
 }
 
 .card {
-
+    background-color: #606c38;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+    
 }
+
 
 .card:hover {
     box-shadow: 0px 16px 0 rgba(0,0,0,0.2);
 }
 
-.three-col {
-    padding: 2px 16px;
+.card > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card > h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #bc6c25; 
+    text-align: center;
 }
 
 .one-col {
